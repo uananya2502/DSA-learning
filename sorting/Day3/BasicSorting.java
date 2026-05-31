@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class BasicSorting{
-    public void bubbleSort(int[] arr){
+    public static void bubbleSort(int[] arr){
         for(int turn =0; turn <=arr.length-1; turn++){
             boolean swap=false;
             for(int j=0; j<arr.length-1-turn; j++){
@@ -15,10 +15,9 @@ public class BasicSorting{
             if(!swap)
                 break;
         }
-        return arr;
     }
 
-    public void selectionSort(int[] arr){
+    public static void selectionSort(int[] arr){
         for(int i =0; i<arr.length-1; i++){
             int minp = i;
             for(int j=i+1; j<arr.length; j++){
@@ -29,10 +28,9 @@ public class BasicSorting{
             arr[minp]= arr[i];
             arr[i]= temp;
         }
-        return arr;
     }
 
-    public void insertionSort(int[] arr){
+    public static void insertionSort(int[] arr){
         for(int i=1; i<arr.length; i++){
             int curr = arr[i];
             int prev = i-1;
@@ -42,7 +40,6 @@ public class BasicSorting{
             }
             arr[prev+1]=curr;
         }
-        return arr;
     }
     
     public static void main(String [] args){
