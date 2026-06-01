@@ -1,3 +1,5 @@
+package Day3;
+
 import java.util.*;
 
 public class BasicSorting{
@@ -43,12 +45,12 @@ public class BasicSorting{
     }
     
     public static void main(String [] args){
-        int[] a = [5,3,4,2,1];
-        int[] b = [5,3,4,2,1];
-        int[] c = [5,3,4,2,1];
+        int[] a = {5,3,4,2,1};
+        int[] b = {5,3,4,2,1};
+        int[] c = {5,3,4,2,1};
         bubbleSort(a);
         selectionSort(b);
-        insertionSort(c)
+        insertionSort(c);
 
     }
 }

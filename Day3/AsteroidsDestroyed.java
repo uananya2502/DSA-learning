@@ -1,3 +1,5 @@
+package Day3;
+
 /*
     You are given an integer mass, which represents the original mass of a planet. 
     You are further given an integer array asteroids, where asteroids[i] is the mass of the ith asteroid.
@@ -26,6 +28,7 @@ Space: O(1) (excluding sorting space)
 
 ## Note: Use long for mass to avoid integer overflow when the mass becomes very large.
 */
+import java.util.*;
 
 class AsteroidsDestroyed{
     public boolean asteroidsDestroyed(int mass, int[] asteroids) {
