@@ -1,6 +1,6 @@
 package Day3;
 
-import java.util.*;
+
 
 public class BasicSorting{
     public static void bubbleSort(int[] arr){
