@@ -1,4 +1,4 @@
-package August.String;
+package String;
 /* 
 For the largest odd number, find the rightmost odd digit and return everything before it (including it).
 

@@ -1,5 +1,3 @@
-package August;
-
 public class PaintersPartition {
     public int paint(int A, int B, int[] C) {
         int low=0;

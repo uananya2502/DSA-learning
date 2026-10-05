@@ -1,4 +1,4 @@
-package Day26_35;
+
 
 public class NthRoot {
     public int NthRoot(int N, int M) {

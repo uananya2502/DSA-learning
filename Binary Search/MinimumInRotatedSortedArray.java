@@ -1,5 +1,3 @@
-package Day26_35;
-
 public class MinimumInRotatedSortedArray {
     public int findMin(int[] nums) {
         int low = 0, high = nums.length - 1;

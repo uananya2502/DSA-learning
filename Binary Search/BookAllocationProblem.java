@@ -1,5 +1,3 @@
-package August;
-
 public class BookAllocationProblem {
     public int findPages(int[] nums, int m) {
         if(m>nums.length){

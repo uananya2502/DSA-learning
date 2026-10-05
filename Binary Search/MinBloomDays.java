@@ -1,5 +1,3 @@
-package August;
-
 public class MinBloomDays {
     public int minDays(int[] bloomDay, int m, int k) {
 

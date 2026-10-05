@@ -1,4 +1,4 @@
-package Day26_35;
+
 
 public class getFloorAndCeil {
     public int[] getFloorAndCeil(int[] nums, int x) {

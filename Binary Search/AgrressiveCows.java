@@ -1,7 +1,4 @@
-package August;
-
 import java.util.Arrays;
-
 public class AgrressiveCows {
     public int aggressiveCows(int[] nums, int k) {
         Arrays.sort(nums);

@@ -1,4 +1,4 @@
-package August.String;
+package String;
 /*
 1. Start from the end
 
